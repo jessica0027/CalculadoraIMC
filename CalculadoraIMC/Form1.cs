@@ -23,7 +23,7 @@ namespace CalculadoraIMC
         private void txtAlturaEnter(object sender, EventArgs e)
         //
         {
-            txtAltura.BackColor = Color.Red; / Comando que muda a cor para vermelho
+            txtAltura.BackColor = Color.Red; // Comando que muda a cor para vermelho
             txtAltura.Tag = true; // Comando que ativa o campo altura quando selecionado
             txtPeso.Tag = false; // Comando que desmarca o campo peso
         }
