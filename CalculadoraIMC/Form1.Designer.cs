@@ -278,7 +278,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(58, 140);
+            pictureBox2.Location = new Point(53, 140);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(48, 52);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -353,10 +353,11 @@
             // 
             // lbMensagemErro
             // 
-            lbMensagemErro.Location = new Point(16, 221);
+            lbMensagemErro.Location = new Point(16, 219);
             lbMensagemErro.Name = "lbMensagemErro";
             lbMensagemErro.Size = new Size(348, 13);
             lbMensagemErro.TabIndex = 18;
+            lbMensagemErro.TextAlign = ContentAlignment.BottomLeft;
             // 
             // lbResultadoSituacao
             // 
@@ -370,9 +371,9 @@
             // 
             lbSituacao.Font = new Font("Verdana", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lbSituacao.ForeColor = Color.DimGray;
-            lbSituacao.Location = new Point(44, 231);
+            lbSituacao.Location = new Point(44, 234);
             lbSituacao.Name = "lbSituacao";
-            lbSituacao.Size = new Size(124, 32);
+            lbSituacao.Size = new Size(124, 29);
             lbSituacao.TabIndex = 16;
             lbSituacao.Text = "Situação";
             lbSituacao.TextAlign = ContentAlignment.MiddleLeft;
